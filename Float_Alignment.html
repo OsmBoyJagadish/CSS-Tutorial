@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <style>
+        *{
+            box-sizing: border-box;
+
+        }
+        body{
+            font-family: 'Sedgwick Ave Display', cursive;
+        }
+        .container{
+            border: 3px solid black;
+            width: 800px;
+            margin: 50px auto;
+            background-color: rgb(32, 201, 150);
+        }
+        .item{
+            border: 3px solid brown;
+            margin: 15px 5px;
+            padding: 15px 10px;
+            background: burlywood;
+        }
+
+        #fruit{
+            float: right;
+            width: 48%;
+
+        }
+        #Vegetable{
+            float: left;
+            width: 48%;
+
+        }
+        #fastFood{
+            /* float: left; */
+            /* clear: left; */
+            clear: both;    
+            width: 100%;
+        }
+        p,h3{
+            /* text-align: right;
+            text-align: left;
+            text-align: center; */
+            text-align: justify;
+        }
+        h1{
+            margin: 25px auto;
+            width: 455px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome To My store</h1>
+        <div id="fruit" class="item">
+            <h3>Fruit</h3>
+            <p id="fruitPara" class="para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nostrum harum earum explicabo est debitis, et cum? Ullam, mollitia expedita. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nihil in vero quis nam ea quam dolor perspiciatis porro, praesentium blanditiis corporis et possimus, deserunt, ab labore voluptatem itaque reiciendis.
+            </p>
+        </div>
+        <div id="Vegetable" class="item">
+            <h3>Vegetable</h3>
+            <p id="vegetablePara" class="para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nostrum harum earum explicabo est debitis, et cum? Ullam, mollitia expedita. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex tempore, earum nisi ipsum deleniti praesentium quidem optio minima nesciunt repellendus veritatis consequatur dolorem a dicta, magnam architecto quos ea rem?
+            </p>
+        </div>
+        <div id="fastFood" class="item">
+            <h3>FastFood</h3>
+            <p id="fastfoodPara" class="para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nostrum harum earum explicabo est debitis, et cum? Ullam, mollitia expedita.
+            </p>
+        </div>
+        <div id="junkFood" class="item">
+            <h3>JunkFood</h3>
+            <p id="junkfoodPara" class="para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nostrum harum earum explicabo est debitis, et cum? Ullam, mollitia expedita.
+            </p>
+        </div>
+
+    </div>
+</body>
+</html>
